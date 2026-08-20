@@ -1,0 +1,5 @@
+{
+    "name": "Claude PR review bot — reviews every PR",
+    "description": "Installs the org's standing Claude reviewer: every pull request gets inline comments and an approve/request-changes verdict, verified and escalated to a human when the bot can't decide. Setup steps: see the sentfutures/devops README.",
+    "iconName": "octicon eye"
+}
