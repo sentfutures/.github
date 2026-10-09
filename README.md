@@ -1,11 +1,18 @@
 # .github
 
-Org-wide GitHub defaults for sentfutures. `workflow-templates/` holds the
-starter workflows every repo sees under Actions → New workflow → "By
-sentfutures" — currently the Claude PR review bot and the @claude mention
-handler. These templates are thin callers; the shared logic and the setup
-runbook live in [sentfutures/devops](https://github.com/sentfutures/devops).
-Keep each template in sync with its twin in that repo's `callers/` directory.
+Org-wide GitHub defaults for sentfutures. It holds no workflow templates.
+
+`workflow-templates/` used to offer the Claude PR review bot and the @claude
+mention handler under Actions → New workflow → "By sentfutures". They were
+retired on 2026-10-09:
+- **Unused:** no repo had been set up from them.
+- **Not visible everywhere:** repos under personal accounts never see org
+  templates.
+- **Drift:** keeping a second copy of each caller in sync had failed twice.
+
+To install the bots, use `/install-review-bot` or copy the callers from
+[sentfutures/devops](https://github.com/sentfutures/devops)' `callers/`
+directory, as its README describes.
 
 > **⚠️ This repo silently changes every repo in the org.** Any community
 > health file added here — `PULL_REQUEST_TEMPLATE.md`, `ISSUE_TEMPLATE/`,

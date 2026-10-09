@@ -1,5 +1,0 @@
-{
-    "name": "Claude @mention handler — on-demand",
-    "description": "Summon Claude by commenting @claude on any issue or PR; also the fallback for fork PRs the review bot skips. Setup steps: see the sentfutures/devops README.",
-    "iconName": "octicon comment-discussion"
-}
